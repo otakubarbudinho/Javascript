@@ -9,7 +9,7 @@ class clientes {
     }
 
     exibirNome() {
-        console.log('O nome dessa pessoa é' + this.nome);
+        console.log('O nome do cliente é' + this.nome);
 
     }
 
@@ -17,6 +17,7 @@ class clientes {
 
 const cliente = new clientes('Rodrigo', '555.348.440-51');
 
-cliente.exibirNome();
 
 
+
+console.log(cliente.exibirNome());
